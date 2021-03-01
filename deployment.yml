@@ -33,7 +33,7 @@ items:
           - name: STORAGE_TYPE
             value: elasticsearch 
           - name: ES_HOSTS
-            value: "http://elasticsearch:9022/"
+            value: "http://elasticsearch:9200/"
           image:  openzipkin/zipkin
           name: zipkin
           ports:
